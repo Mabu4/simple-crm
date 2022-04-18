@@ -1,0 +1,56 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.mat-drawer-container {
+    height: 100vh;
+}
+
+.menu-icon {
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.sidenav {
+    width: 300px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    min-height: 56px;
+    border-bottom: 1px solid rgba($color: #000000, $alpha: 0.075);
+}
+
+mat-toolbar {
+    height: 56px;
+    min-height: 56px;
+}
+
+.menu-ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    li {
+        padding: 8px 16px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba($color: #000000, $alpha: 0.075);
+        }
+        &:focus {
+            background-color: rgba($color: #000000, $alpha: 0.075);
+        }
+        mat-icon {
+            margin-right: 16px;
+        }
+    }
+}
+
+.router-container {
+    padding: 16px 48px;
+}
