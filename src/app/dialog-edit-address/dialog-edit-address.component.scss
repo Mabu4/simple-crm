@@ -1,0 +1,12 @@
+.dialog-outer {
+    position: relative;
+}
+
+.progress-bar {
+    position: absolute;
+    width: calc(100% + 48px);
+    left: -24px;
+    right: -24px;
+    top: -24px;
+    right: 0;
+}
