@@ -1,7 +1,7 @@
 
 .header {
     min-height: 200px;
-    background-color: rgb(247, 134, 53);
+    background-color: #5271FF;
     display: flex;
     align-items: flex-end;
     color: white;
@@ -36,4 +36,10 @@
         right: 8px;
         top: 8px;
     }
+}
+
+.back-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
 }

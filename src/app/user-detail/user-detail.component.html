@@ -1,11 +1,15 @@
 
 
 <mat-card class="header">
+    <button routerLink="/user" class="back-icon" mat-icon-button>
+        <mat-icon>arrow_back</mat-icon>
+    </button>
     <button [matMenuTriggerFor]="menuHeader" mat-icon-button>
         <mat-icon>more_vert</mat-icon>
     </button>
     <mat-menu #menuHeader="matMenu">
         <button mat-menu-item (click)="editUserDetail()">Edit</button>
+        <button mat-menu-item (click)="deleteUser()" routerLink="/user">Delete</button>
     </mat-menu>
     <img src="../../assets/img/profile.png">
     <div>
